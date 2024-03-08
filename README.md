@@ -1,7 +1,6 @@
 
 
 #  IntegradorLPR_SegPub
-_Integrador LPR_
 
 ## Descrição
 
@@ -17,12 +16,12 @@ As informações sobre as passagens do veículo são processadas em uma fila e e
 
 ## Documentação
 
-###### **Requisitos**
+##### **Requisitos**
 
 - NodeJS >= v12;
 - Banco de Dados MySQL/MariaDB;
 
-###### **Instalação**
+##### **Instalação**
 
 1. Baixe a Release do [**IntegradorLPR_SegPub**](https://github.com/KokeroO/IntegradorLPR_SegPub/releases);
 2. Importe o arquivo `base.sql` para sua base de dados;
@@ -30,14 +29,14 @@ As informações sobre as passagens do veículo são processadas em uma fila e e
 4. Vá para `index.js` e configura os dados do banco.
 5. Execute: `node index.js`
 
-###### **Configurações adicionais**
+##### **Configurações adicionais**
 
 Utilizei o banco de dados para salvar constantes e paramêtros de comunicação dos equipamentos:
-- A tabela `config_system` possui a coluna `token` que é utilizado para autorizar a consulta da imagem pela url: [http://[HOST]/captureCams];
+- A tabela `config_system` possui a coluna `token` que é utilizado para autorizar a consulta da imagem pela url: http://[HOST]/captureCams;
 - A tabela `config_lpr_intelbras` contém os parametros de comunicação e dados que podem ser enviados a outros órgãos;
 - A tabela `config_integration_entity` contém os dados para execução e paramêtros de comunicação com outras API.
 
-## Creditos e contato
+## Créditos e contato
 **Não remova os créditos do autor.**
 
 **KokeroO - Discord: Kokero#3996**

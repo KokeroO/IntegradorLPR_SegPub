@@ -1,0 +1,19 @@
+{
+    "anpr": {
+        "200": "Conexão bem sucedida.",
+        "201": "Conexão bem sucedida. Aguardando resultados.",
+        "301": "Paramêtros da requisição foram movidos.",
+        "400": "O pedido de conexão não atende aos requisitos.",
+        "401": "Usuário ou senha incorretos.",
+        "403": "O equipamento está rejeitando a dar resposta.",
+        "404": "Equipamento offline"
+    },
+    "integrador_sesp": {
+        "200": "Conexão bem sucedida.",
+        "201": "Registro criado com sucesso.",
+        "400": "Erro de algum dado do payload ( dado inválido, tamanho, tipo, obrigatoriedade ).",
+        "401": "Token de integração inválido.",
+        "403": "Identificador do equipamento desativado ou inválido.",
+        "404": "Veículo não encontrado."
+    }
+}

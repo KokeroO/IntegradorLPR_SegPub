@@ -1,0 +1,22 @@
+{
+  "bin": "index.js",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "esm": "^3.2.25",
+    "express": "^4.18.1",
+    "hwid": "^0.4.1",
+    "mysql2": "^3.9.2",
+    "nanoid": "^3.3.4",
+    "node-hwid": "^0.1.0",
+    "node-libcurl": "^2.3.4"
+  },
+  "name": "IntegradorLPR_SegPub",
+  "version": "2022.08.04",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "KokeroO",
+  "license": "Initial AGPLv3"
+}
