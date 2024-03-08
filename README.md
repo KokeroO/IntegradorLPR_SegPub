@@ -43,4 +43,4 @@ Utilizei o banco de dados para salvar constantes e paramêtros de comunicação 
 
 ## License
 
-Consulte [LICENSE.md](./LICENSE.md).
+Consulte [LICENSE.md](./LICENSE).
